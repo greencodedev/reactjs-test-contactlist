@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  max-width: 1440px;
+  margin: auto;
+  justify-content: center;
+  display: grid;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title-area {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.input-area {
+  padding: 10px;
+  width: fit-content;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+}
+
+.form-control {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px;
+}
+
+.red-error {
+  color: red;
+}
+
+.item-title {
+  width: 150px;
+}
+
+.btn-item {
+  justify-content: flex-end;
+}
+
+.saveBtn {
+  float: right;
+  padding: 10px 20px;
+  border-radius: 2px;
+
+}
+
+.list-area {
+  margin-top: 10px;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control input {
+  padding: 5px 10px;
+}
+
+.infor {
+  display: table;
+  justify-content: flex-start;
+}
+
+.infor p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: start;
+  font-weight: 600;
+}
+
+.icon-btn {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 5px;
+}
